@@ -1,0 +1,491 @@
+/* Normal */
+@font-face {
+  src: url("../fonts/brand.ttf");
+  font-family: brand;
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  src: url("../fonts/ModernWarfare-8MM6z.ttf");
+  font-family: callOfDuty;
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  src: url("../fonts/americankestral3d1_2.ttf");
+  font-family: america;
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  src: url("../fonts/Monster.ttf");
+  font-family: monster;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  src: url("../fonts/Bullpen3D.ttf");
+  font-family: bullPen;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  src: url("../fonts/Damned.ttf");
+  font-family: iconic;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  src: url("../fonts/Bariol_Serif_Regular.otf");
+  font-family: main;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  src: url("../fonts/Bariol_Serif_Regular.otf");
+  font-family: horror;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  src: url("../fonts/sss.ttf");
+  font-family: jungle;
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  src: url("../fonts/Calfinedemo.otf");
+  font-family: title;
+  font-style: normal;
+  font-weight: bold;
+}
+body {
+  max-width: 100%;
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.brand {
+  margin: 0 auto;
+  padding: 0;
+  font-family: iconic;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+
+  color: rgb(15, 16, 19);
+  opacity: 0.9;
+  padding: 5px;
+}
+
+.navbar-style {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  background: transparent;
+  margin: 0 auto;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.navItems-style {
+  margin: 0;
+
+  z-index: 10;
+  padding: 0;
+}
+.searchButton-style {
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.home-banner {
+  background: black;
+
+  margin: auto;
+  padding-bottom: 10rem;
+  display: flex;
+  color: rgb(252, 101, 0);
+  justify-content: center;
+  font-family: brand;
+  align-items: center;
+}
+.profile-banner {
+  background: black;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 2rem;
+
+  justify-content: center;
+  font-family: brand;
+  align-items: center;
+}
+
+.home-banner-image {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: -15vh;
+
+  z-index: 0;
+}
+.register-banner-image {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: -15vh;
+  margin-bottom: -100vh;
+  z-index: 0;
+}
+.login-banner-image {
+  width: 100%;
+  display: flex;
+  padding: 0;
+
+  margin-top: -20vh;
+  margin-bottom: -40vh;
+  z-index: 0;
+}
+
+.adv-banner {
+  color: #161106;
+  /* background-color: rgb(33, 112, 182); */
+  z-index: 5;
+  font-size: 3rem;
+  opacity: 0.5;
+  margin-top: -8rem;
+  display: flex;
+  color: rgb(252, 101, 0);
+  justify-content: center;
+  font-family: brand;
+  align-items: center;
+  padding: 0;
+}
+.nav-public-links {
+  font-family: callOfDuty;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-style {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem;
+  margin: auto;
+}
+.addToCartButton-style {
+  font-family: iconic;
+  width: 15rem;
+  margin: 15px;
+}
+.addToCartButton-style:hover {
+  opacity: 1.5;
+  background-color: rgb(66, 60, 60);
+}
+.cart-style {
+  justify-content: center;
+  width: 30rem;
+  margin: 10rem 1rem 1rem 1rem;
+  min-height: 35rem;
+  max-height: 45rem;
+  background: linear-gradient(#fc5732, #29e592);
+  outline-color: transparent;
+  border-radius: 9px;
+  box-sizing: border-box;
+  display: flex;
+}
+.title-game-style {
+  font-size: 3rem;
+  font-family: jungle;
+  color: #161106;
+  padding: 1rem;
+  font-weight: bold;
+}
+.callof {
+  z-index: 10;
+  margin-bottom: -27rem;
+  width: 88%;
+}
+.cart-info-style {
+  font-family: jungle;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 3rem;
+  font-size: 15px;
+}
+.cart-info-style2 {
+  font-family: jungle;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.shoppingCart-banner {
+  font-family: brand;
+  color: #db6930;
+}
+.cart-context-style {
+  font-family: jungle;
+  font-size: 14px;
+  padding: 5px;
+  margin: 15px;
+}
+.downloadicon {
+  width: 4rem;
+  background: transparent;
+  margin-left: 1rem;
+}
+.downloadtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: #0e312b;
+  opacity: 0.7;
+}
+
+.form-style {
+  margin: auto;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.contextform-style {
+  margin: auto;
+  justify-content: center;
+  box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+.home-icon {
+  margin: 0 8px 0 25px;
+  margin-top: -8px;
+}
+.home-icon:hover {
+  opacity: 0.8;
+}
+.login-icon {
+  width: 1rem;
+  height: 1.1rem;
+}
+
+.login-btn-style:hover {
+  background-color: white;
+  opacity: 0.8;
+  color: rgb(58, 58, 190);
+}
+.signup-style:hover {
+  background-color: tomato;
+  color: white;
+}
+.signup-icon {
+  width: 1.5rem;
+  box-sizing: border-box;
+}
+
+.cart-icon {
+  width: 3rem;
+  box-sizing: border-box;
+}
+.cart-icon:hover {
+  opacity: 0.5;
+}
+
+.profile-icon {
+  width: 3rem;
+  box-sizing: border-box;
+}
+.profile-icon:hover {
+  opacity: 0.7;
+}
+.logout-icon {
+  width: 2.5rem;
+  box-sizing: border-box;
+}
+.logout-icon:hover {
+  opacity: 0.7;
+}
+.logout-style {
+  font-family: bullPen;
+  font-size: 0.7rem;
+}
+.logout-style:hover {
+  opacity: 0.6;
+  color: white;
+}
+.signup-form-style {
+  background-color: rgb(241, 182, 31);
+  font-size: 1.5rem;
+  font-family: brand;
+  border-radius: 20px;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.sigupform-style {
+  color: #050505;
+  margin-top: 5rem;
+}
+.loginform-style {
+  color: #050505;
+  margin-top: 4rem;
+}
+.signuptitle-style {
+  font-size: 4em;
+  margin-top: -5rem;
+}
+.logintitle-style {
+  font-size: 4rem;
+  margin-top: -4rem;
+}
+
+.pub-nav-items-style {
+  display: flex;
+}
+
+.search-style {
+  justify-content: center;
+  height: 1.5rem;
+  justify-items: center;
+  background-color: rgb(185, 166, 77);
+  width: 10rem;
+  margin: auto;
+  margin-left: 2rem;
+  align-items: center;
+  font-family: america;
+  opacity: 0.8;
+  border: transparent;
+}
+.search-btn-style {
+  border: none;
+  margin: 0 0 3px -1.3rem;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  width: 1.7rem;
+}
+.mainprofile {
+  font-family: brand;
+  color: #d1a808;
+  border: 2rem solid #d1a808;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+  opacity: 0.8;
+}
+.homeimages {
+  padding: 10px;
+
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.homeimages2 {
+  padding: 10px;
+  padding-top: -10px;
+
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.homeimages3 {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 110%;
+}
+.profile-main-style {
+  margin: 0 auto;
+  font-family: brand;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(219, 162, 16);
+}
+
+.authWrapper-style {
+  font-family: brand;
+  margin: auto;
+  margin-top: -13vh;
+  box-sizing: border-box;
+
+  opacity: 0.9;
+  justify-content: center;
+}
+.contextcart-style {
+  padding: 15px 0 0 0;
+  margin: 0;
+  color: #563241;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: jungle;
+}
+
+.btn-style {
+  color: rgb(206, 192, 6);
+  background-color: blueviolet;
+  border-radius: 5px;
+  width: 4rem;
+  height: 2rem;
+  margin: auto;
+  margin-top: 9px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-style {
+  background-color: #db6930;
+  padding: 0;
+  margin: 0;
+
+  height: 7rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.checkout-form {
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(289deg 100% 21%) 11%,
+    hsl(315deg 100% 27%) 22%,
+    hsl(329deg 100% 36%) 33%
+  );
+  font-family: callOfDuty;
+  border-radius: 1.5rem;
+  width: 50rem;
+  margin-top: -50rem;
+  margin: auto;
+}
+.main-shopping-style {
+  padding-right: 2rem;
+  justify-content: end;
+  margin: 0 auto;
+}
+
+.footericons {
+  display: flex;
+  box-sizing: border-box;
+  width: 8rem;
+}
+.profileimages {
+  box-sizing: border-box;
+  width: 50rem;
+  padding: 1rem;
+
+  border-radius: 5px;
+}
+.profile {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}

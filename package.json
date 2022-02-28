@@ -1,0 +1,43 @@
+{
+  "name": "boilerplate-server-db",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "passport-config.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoSpeziali/boilerplate-server-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoSpeziali/boilerplate-server-db/issues"
+  },
+  "homepage": "https://github.com/FrancoSpeziali/boilerplate-server-db#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.3",
+    "call-of-duty-api": "^2.3.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "juice": "^8.0.0",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.5",
+    "mongosh": "^1.1.9",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "react-bootstrap": "^2.1.2",
+    "redis": "^4.0.2",
+    "router": "^1.3.6"
+  }
+}
