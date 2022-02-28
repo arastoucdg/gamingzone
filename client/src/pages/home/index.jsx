@@ -11,9 +11,13 @@ export default function Home() {
       method: "GET",
       url: "http://localhost:3001/products/list",
     };
-
+    // if (process.env.NODE_ENV == "production") {
+    //   const baseURL = "https://free-gaming-zone.herokuapp.com/products/list";
+    // } else {
+    //   const baseURL = "http://localhost:3001/products/list";
+    // }
     axios
-      .request(options)
+      .get("https://free-gaming-zone.herokuapp.com/products/list")
       .then(function (response) {
         setState(response.data.products);
       })
