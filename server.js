@@ -8,7 +8,7 @@ const path = require("path");
 
 dotenv.config();
 const app = express();
-const port = 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(
   cors({
@@ -61,6 +61,6 @@ app.get("*", (req, res) => {
 //console.log("Server started on port " + app.get("port"));
 //});
 
-app.listen(port, () => {
-  console.log(`The server 🙈 is listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`The server 🙈 is listening on port ${PORT}`);
 });
