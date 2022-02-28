@@ -4,6 +4,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const passport = require("passport");
 const cookieParser = require("cookie-parser");
+const path = require("path");
 
 dotenv.config();
 const app = express();
@@ -52,9 +53,9 @@ app.use("/users", userRoutes);
 
 app.use("/all", getall);
 
-app.all("*", (req, res) => {
-  res.status(500);
-  res.send("Invalid path");
+app.use(express.static(path.join(__dirname, "client/build")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 //app.listen(app.get("port"), () => {
 //console.log("Server started on port " + app.get("port"));
