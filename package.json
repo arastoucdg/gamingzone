@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "## Instructions",
   "main": "passport-config.js",
+  "engines": {
+    "node": "14.17.0",
+    "npm": "8.1.4"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
